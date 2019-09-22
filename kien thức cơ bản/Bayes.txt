@@ -1,0 +1,7 @@
+p(x|y)=p(x,y)/p(y)=p(y|x)*p(x)/p(y)
+-p(x1,x2,...,xn|c)=p(x1|c).p(x2|c)....p(xn|c)
+-> p(c|x1,x2,...xn)=p(x1,x2,...,xn|c)*p(c)/p(x1,x2,...xn)
+		   =p(x1,x2,...xn|c)*p(C)
+		   =p(x1|c)*p(x2|c)*...p(xn|c).p(c)
+-Kì vọng của x:E[x]=tong(x*p(x))
+		E[f(x)]=tong(f(x)*p(x))
